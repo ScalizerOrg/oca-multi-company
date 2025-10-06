@@ -17,5 +17,10 @@
     "data": [
         "views/view_res_company.xml",
     ],
+    "assets": {
+        "web.assets_tests": [
+            "res_company_search_view/static/**/*.js",
+        ]
+    },
     "installable": True,
 }
