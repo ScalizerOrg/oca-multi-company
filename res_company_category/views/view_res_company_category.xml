@@ -23,7 +23,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
             <list decoration-info="type == 'view'">
                 <field name="complete_name" />
                 <field name="company_qty" />
-                <field name="type" column_invisible="1" />
+                <field name="type" column_invisible="1" /> <!-- FIX UT -->
             </list>
         </field>
     </record>
@@ -73,7 +73,6 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
                     <group>
                         <group>
                             <field name="type" />
-                            <field name="active" invisible="1" />
                         </group>
                     </group>
                 </sheet>
